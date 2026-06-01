@@ -109,6 +109,19 @@ th {
   margin-top: 0;
 }
 
+.language-switch {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  margin: 0 0 28px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.language-switch span {
+  font-weight: 750;
+}
+
 .details {
   display: grid;
   grid-template-columns: max-content 1fr;
